@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#navbar{
+    width: 100%;
+    height: 30%;
+    margin: 0;
+    padding: 10px;
+    background-color: #fd6569;
+}
+
+.box{
+    margin: 10px;
+    padding: 10px;
+}
+
+.book{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 25%;
+    padding: 10px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#btn{
+    border-radius: 10px;
+    background-color: #fd6569;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+h3{
+    color: #fd6569;
+}
+
+.but{
+    border-radius: 100%;
+    background-color: #fd6569;
+    border: none;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.popup{
+    background-color: black;
+    opacity: 0.8;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.popup-box{
+    background-color: #fd6569;
+    border-radius: 10px;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    padding: 40px;
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+
+.popup-box input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    border-bottom: solid black;
+}
+
+.popup-box textarea{
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    border: solid black;
+
+}
+
+.popup-box input::placeholder{
+    color: black;
+}
+
+.popup-box textarea::placeholder{
+    color: black;
+}
+
+.popup-box button{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.popup-box input:focus{
+    outline: none;
+}
+
+.popup-box textarea:focus{
+    outline: none;
+}
